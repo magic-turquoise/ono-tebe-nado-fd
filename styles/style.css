@@ -1,1 +1,374 @@
-/* место для вашего кода */
+.header {
+  min-height: 293px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__address {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: flex-start;
+  font-style: normal;
+}
+
+.header__address-one {
+  width: 239.48px;
+  height: 24px;
+ }
+
+.header__address-tel {
+  text-decoration: none;
+}
+
+.underline-four {
+  width:120px;
+  height: 1px;
+  background-color: #000;
+  margin-top: 0px; /* расстояние между текстом и линией */
+
+}
+
+.underline-five {
+  width:118px;
+  height: 1px;
+  background-color: #000;
+  margin-top: 1px; /* расстояние между текстом и линией */
+
+}
+
+ .cover {
+  min-height: 757px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 165px 50px 50px 50px;
+  z-index: -1;
+}
+
+/* Оверлей покрывает всю секцию полностью, независимо от padding*/
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 1 / .6);
+  z-index: 0; 
+}  
+
+.cover_title {
+  position: absolute;
+  width: 1000px;
+  height: 385px;
+  color: rgb(255 255 255);
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  z-index: 1;
+}  
+
+.align-text {
+  display: block;
+}
+
+.align-text_left {
+  text-align: left;
+}
+
+.align-text_center {
+  text-align: center;
+}
+
+.align-text_right {
+  text-align: right;
+}
+
+.cover__description {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  height: 51px;
+  margin-top: 491px;
+  z-index: 1;
+}
+
+.cover__description-text{
+  color: rgb(255 255 255);
+  font-size: 22px;
+  font-style: normal;
+  word-spacing: 18px;
+  text-transform: uppercase;
+}
+
+/*  кнопку доделать*/
+.bet-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid rgb(255 255 255);
+  padding: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  
+}
+
+.bet-button-text{
+  display: inline-block;
+  width: 193px;
+  height: 28px;
+  /*line-height: 28px; /* вертикальное центрирование текста внутри блока */
+  text-align: center; /* по центру текст внутри блока */
+  color: rgb(255 255 255);
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.lots {
+  position: relative;
+  min-height: 723px;
+  padding: 0 24px 0 24px;
+  margin-top: 180px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lots__heading {
+  width: 121px;
+  height: 74px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(0 0 0);
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.lots__card-list {
+  list-style-type: none; 
+  display: flex;
+  gap: 25px;
+  height: 596px;
+  color: #ffffff;
+  padding-top: 74;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px ;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  padding: 48px 40px 48px 40px;
+  
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.card-form {
+  position: absolute;
+  z-index: 1;
+  width: 254px;
+  height: 500px;
+  color: rgb(255 255 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__title {
+  font-size: 22px;  
+  text-transform: uppercase;
+  text-decoration: underline;
+ }
+
+.card__text {
+  font-size: 20px;  
+}
+
+.lots-more {
+  width: 192px;
+  height: 25px;
+  margin-left: 40px;
+}
+
+.lots__look-more-link{
+  font-size: 20px;  
+ }
+
+.underline-six {
+  height: 1px;
+  background-color: #000;
+  margin-top: 2px; /* расстояние между текстом и линией */
+ /*width: 50%;  или любой другой размер */
+ 
+}
+
+.about {
+  min-height: 595px;
+  padding: 0 24px 0 24px;
+  margin-bottom: 180px;
+}
+
+.about__column {
+  width: 1052px;
+  height: 595px;
+  display: grid;
+  grid-template-columns: 334px 1fr;
+}
+
+.about__logo {
+  width: 240px; 
+  height: 240px; 
+  margin-top: 35px;
+  margin-left: 47px;
+  background-color: black; 
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  /* при необходимости добавьте отступы или позиционирование */
+}
+
+.about__logo-image {
+   width: 148px; 
+  height: 114px; 
+}
+
+.about-form {
+  width: 693px;
+  height: 449px;
+  margin-top: 133px;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+}
+
+.about__title {
+  font-size: 40px;  
+  text-transform: uppercase;
+}
+
+.about__description {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+}
+
+.about__text {
+  font-size: 20px;  
+}  
+
+.text-first {
+  width: 688px;
+  height: 120px;
+}
+
+.footer {
+  height: 180px;
+  padding: 0 50px 82px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: top;
+ }
+
+.footer__address {
+  width: 264.57px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: flex-start;
+  font-style: normal;
+} 
+
+.footer__address-one {
+  width: 264px;
+  height: 24px;
+ }
+
+.footer__menu {
+  width: 163.9px;
+  height: 64px;
+  justify-self: center;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__menu-list-item {
+  list-style: none
+}
+
+.footer__social-list {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  gap: 48px;
+  justify-self: end;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
+
