@@ -178,7 +178,7 @@
 }
 
 .lots__card-list {
-  list-style-type: none; 
+  list-style-type: none;
   display: flex;
   gap: 25px;
   height: 596px;
@@ -228,7 +228,7 @@
   justify-content: space-between;
 }
 .card__title {
-  font-size: 22px;  
+  font-size: 22px;
   text-transform: uppercase;
   text-decoration: underline;
  }
@@ -275,14 +275,14 @@
   margin-left: 47px;
   background-color: black;
   border-radius: 50%;
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   /* при необходимости добавьте отступы или позиционирование */
 }
 
 .about__logo-image {
-  width: 148px; 
+  width: 148px;
   height: 114px;
 } 
 
@@ -296,7 +296,7 @@
 }
 
 .about__title {
-  font-size: 40px;  
+  font-size: 40px;
   text-transform: uppercase;
 }
 
