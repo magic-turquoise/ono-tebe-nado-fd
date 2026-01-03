@@ -53,8 +53,7 @@
   width:135px;
   height: 1px;
   background-color: #000;
-  margin-top: 2px; 
-
+  margin-top: 2px;
 }
 
 .underline-five {
@@ -250,9 +249,7 @@
 .underline-six {
   height: 1px;
   background-color: #000;
-  margin-top: 2px; /* расстояние между текстом и линией */
- /*width: 50%;  или любой другой размер */
- 
+  margin-top: 2px;
 }
 
 .about {
@@ -292,7 +289,6 @@
   margin-top: 135.5px;
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
 }
 
 .about__title {
@@ -322,8 +318,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: top;
-   font-size: 18px;
- }
+  font-size: 18px;
+}
 
 .footer__address {
   width: 264.57px;
