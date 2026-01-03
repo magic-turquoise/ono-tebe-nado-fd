@@ -117,7 +117,7 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 1000px;
   height: 51px;
   margin-top: 491px;
@@ -132,7 +132,6 @@
   text-transform: uppercase;
 }
 
-/*  кнопку доделать*/
 .bet-button {
   width: 256px;
   height: 51px;
@@ -147,7 +146,7 @@
 
 .bet-button-text {
   display: inline-block;
-  width: 193px;
+  /*width: 193px;
   height: 28px;
   /*line-height: 28px; /* вертикальное центрирование текста внутри блока */
   text-align: center; /* по центру текст внутри блока */
