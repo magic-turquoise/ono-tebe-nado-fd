@@ -45,9 +45,9 @@
 }
 
 .address-tel {
-  border-bottom: 1px solid #000; 
-  padding-bottom: 1px;          
-  text-decoration: none;          
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  text-decoration: none;
 }
 
 .cover {
@@ -126,7 +126,7 @@
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .bet-button-text {
@@ -215,9 +215,9 @@
   width: 192px;
   margin-left: 40px;
   font-size: 20px;
-  border-bottom: 1px solid #000; 
-  padding-bottom: 1px;         
-  text-decoration: none;        
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  text-decoration: none;
 }  
  
 .about {
