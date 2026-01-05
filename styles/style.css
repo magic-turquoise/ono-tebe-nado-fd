@@ -21,7 +21,7 @@
    list-style: none;
 }
 
-.header__link_active .header__link{
+.header__link_active .header__link {
   text-decoration: none;
 }
 
@@ -188,10 +188,10 @@
   background-size: cover;
   position: relative;
   padding: 48px 40px 48px 40px;
-  color: rgb(2 55 255 255);              
-  display: flex;                          
-  flex-direction: column;                 
-  justify-content: space-between;         
+  color: rgb(2 55 255 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card_type_film {
@@ -297,7 +297,7 @@
   list-style: none;
 }
 
-.footer__menu-link_active .footer__menu-link{
+.footer__menu-link_active .footer__menu-link {
   text-decoration: none;
 }
 
